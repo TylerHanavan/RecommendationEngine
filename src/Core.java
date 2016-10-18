@@ -61,6 +61,11 @@ public class Core {
 		
 	}
 	
+	/**
+	 * Fetch or instantiate a new Result
+	 * @param material The material for the Result
+	 * @return The Result
+	 */
 	public Result getResult(Material material) {
 		
 		for(Result result : this.results) {
